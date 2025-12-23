@@ -23,8 +23,11 @@ The model was trained for **200 epochs** over approximately **3 hours** of train
 ### Training Environment
 - **GPU**: 2x NVIDIA Tesla T4
 - **Framework**: Ultralytics YOLOv8
+- **Training Time**: 3 Hours
+- **Epochs**: 200
 - **Image Size**: 416x416
 - **Batch**: 160
+  
 ### Validation Benchmarks
 | Class | Images | Instances | Precision (P) | Recall (R) | mAP50 | mAP50-95 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
