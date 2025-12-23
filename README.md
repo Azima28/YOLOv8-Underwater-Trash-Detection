@@ -18,7 +18,20 @@ This project focuses on the automated detection of underwater debris using the *
 ---
 
 ## 📊 Training Results
-The model was trained for **200 epochs** on a specialized underwater dataset.
+The model was trained for **200 epochs** over approximately **4 hours** of training time.
+
+### Training Environment
+- **GPU**: 2x NVIDIA Tesla T4
+- **Framework**: Ultralytics YOLOv8
+- **Image Size**: 416x416
+
+### Validation Benchmarks
+| Class | Images | Instances | Precision (P) | Recall (R) | mAP50 | mAP50-95 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **all** | 1795 | 2578 | 0.957 | 0.920 | 0.965 | 0.786 |
+| **Bio** | 419 | 491 | 0.973 | 0.939 | 0.980 | 0.844 |
+| **Rov** | 310 | 400 | 0.936 | 0.915 | 0.964 | 0.829 |
+| **Trash** | 1408 | 1687 | 0.962 | 0.906 | 0.950 | 0.686 |
 
 ### Performance Curves
 The following metrics illustrate the model's learning progress, showing loss reduction and Mean Average Precision (mAP) improvement.
