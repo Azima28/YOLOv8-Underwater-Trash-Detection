@@ -18,7 +18,7 @@ This project focuses on the automated detection of underwater debris using the *
 ---
 
 ## 📊 Training Results
-The model was trained for **200 epochs** over approximately **4 hours** of training time.
+The model was trained for **200 epochs** over approximately **3 hours** of training time.
 
 ### Training Environment
 - **GPU**: 2x NVIDIA Tesla T4
